@@ -13,7 +13,7 @@ export default function Home() {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://157.230.98.10:26659/submit_pfb', {
+      const response = await fetch('/api/submit_pfb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
